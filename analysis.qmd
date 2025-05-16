@@ -1,5 +1,10 @@
 ---
 title: "analysis"
+author: "Vishwa"
 format: html
 ---
+```{r}
+library(palmerpenguins)
 
+summary(penguins)
+```
